@@ -7,6 +7,12 @@ Shows how AsyncStatus works to get a practical understanding of it.
 - [Live demo](https://bugtamer.github.io/ng-async-status-example/)
 - [Live demo source code](https://github.com/bugtamer/ng-async-status-example)
 
+## Build AsyncStatus Example GitHub Pages
+
+`npm run ghpages`
+
+See [`package.json`](./package.json)
+
 ## Project guide
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.0.
