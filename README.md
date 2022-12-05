@@ -2,8 +2,10 @@
 
 Shows how AsyncStatus works to get a practical understanding of it.
 
-  - [Source code repo](https://github.com/bugtamer/async-status-js)
-  - [NPM](https://www.npmjs.com/package/@bugtamer/async-status)
+- [AsyncStatus source code](https://github.com/bugtamer/async-status-js)
+- [NPM](https://www.npmjs.com/package/@bugtamer/async-status)
+- [Live demo](https://bugtamer.github.io/ng-async-status-example/)
+- [Live demo source code](https://github.com/bugtamer/ng-async-status-example)
 
 ## Project guide
 
