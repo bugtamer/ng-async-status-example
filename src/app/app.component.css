@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+caption {
+  margin-bottom: 1em;
+}
+
+.title {
+  display: block;
+  font-weight: bold;
+}
+
+.subtitle {
+  display: block;
+  font-style: italic;
+}
+
+th {
+  text-align: right;
+}
+
+.member {
+  color: brown;
+}
+
+.duration {
+  margin-bottom: .5em;
+}
+
+label,
+input,
+.center {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  margin: .5em;
+}
