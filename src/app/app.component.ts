@@ -1,5 +1,5 @@
 import { Component, ChangeDetectorRef } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import { Subscription, timer } from 'rxjs';
 
 import { AsyncStatus } from '@bugtamer/async-status/lib/async-status';
@@ -15,7 +15,7 @@ export class AppComponent {
   processAsyncStatus!: AsyncStatus;
 
   readonly initialDelay = 1_000;
-  readonly delayControl = new FormControl(this.initialDelay);
+  readonly delayControl = new UntypedFormControl(this.initialDelay);
   message!: string;
   elapsedTime!: number;
   private subscription!: Subscription;
